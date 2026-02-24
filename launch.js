@@ -43,12 +43,13 @@ waitlistBtn.addEventListener("click", () => {
   if (name === "" || email === "") {
     alert("Please fill in all fields!");} 
     else {
-    alert("");
+    alert("You have been added to the waitlist!");
     userCount.innerText = parseInt(userCount.innerText) + 1;
     document.getElementById("nameInput").value = "";
     document.getElementById("emailInput").value = "";
   }
 });
+
 
 
 
